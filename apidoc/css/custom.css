@@ -1,0 +1,79 @@
+select{
+  color: #666;
+}
+
+/* ------------------------------------------------------------------------------------------
+ * Side nav search
+ * ------------------------------------------------------------------------------------------ */
+
+.sidenav-search {
+  top: 108px;
+}
+
+.swich-box{
+  padding: 10px 0;
+  text-align: right;
+  display: flex;
+  align-items: center;
+  background-color: #F5F5F5;
+  z-index: 11; 
+}
+
+.swich-box .my-checkbox-label{
+  display: inline-block;
+  font-size: 14px;
+  margin-bottom: 0;
+  margin-right: 10px;
+}
+
+.sidenav{
+  top: 200px;
+}
+
+.compan-icon {
+  width: 235px;
+  left: 0px;
+  position: fixed;
+  padding: 16px 20px 10px 20px;
+  background-color: #F5F5F5;
+  z-index: 11; 
+}
+
+.compan-icon .sidenav-logo {
+  z-index: 12;
+  width: 100%;
+}
+
+.compan-icon .sidenav-logo img {
+  margin: 0 auto;
+  display: block;
+  width: 120px;
+}
+
+.compan-icon .sidenav-logo h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.article-code{
+  border-bottom: 1px solid #fff;
+  padding-bottom: 20px;
+}
+
+.request-section{
+  margin-bottom: 20px;
+}
+.request-section-inside{
+  margin-bottom: 15px;
+}
+
+#sections{
+  border-bottom: 2px solid #333;
+  margin-bottom: 20px;
+}
+
+@media print{
+  .article-code{
+    display: none;
+  }
+}
