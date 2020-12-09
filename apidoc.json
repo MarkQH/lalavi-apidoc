@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "这里是文档描述可配置",
   "title": "我是文档标题可配置",
-  "apiName": "我是侧边栏标题可配置",
+  "apiName": "我是侧边栏标题",
   "url" : "https://api.linkfin.com",
   "sampleUrl": "https://apidoc.free.beeceptor.com",
   "header": {
