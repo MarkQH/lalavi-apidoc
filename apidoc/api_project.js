@@ -3,7 +3,7 @@ define({
   "version": "1.1.0",
   "description": "这里是文档描述可配置",
   "title": "我是文档标题可配置",
-  "apiName": "我是侧边栏标题可配置",
+  "apiName": "我是侧边栏标题",
   "url": "https://api.linkfin.com",
   "sampleUrl": "https://apidoc.free.beeceptor.com",
   "header": {
@@ -18,7 +18,7 @@ define({
   "apidoc": "0.3.0",
   "generator": {
     "name": "apidoc",
-    "time": "2020-12-08T07:48:21.954Z",
+    "time": "2020-12-09T08:21:03.756Z",
     "url": "https://apidocjs.com",
     "version": "0.25.0"
   }
