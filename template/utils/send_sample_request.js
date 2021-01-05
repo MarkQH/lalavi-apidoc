@@ -73,9 +73,9 @@ define([
                 }).each(function(i, element) {
                     var key = $(element).data("sample-request-param-name");
                     var value = element.value;
-                    if ( ! element.optional && element.defaultValue !== '') {
-                        value = element.defaultValue;
-                    }
+                    // if ( ! element.optional && element.defaultValue !== '') {
+                    //     value = element.defaultValue;
+                    // }
                     if (contentType == "body-form-data"){
                         header['Content-Type'] = 'multipart/form-data'
                         if (element.type == "file") {
